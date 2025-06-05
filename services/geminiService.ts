@@ -3,11 +3,11 @@ import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
 import { Flashcard } from '../types';
 import { GEMINI_TEXT_MODEL } from '../constants';
 
-const API_KEY = process.env.API_KEY;
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 if (!API_KEY) {
   console.warn(
-    "API_KEY for Gemini is not set. AI features will be disabled. Ensure process.env.API_KEY is configured."
+    "VITE_API_KEY for Gemini is not set in your .env file. AI features will be disabled. Ensure VITE_API_KEY is configured in a .env file at the project root."
   );
 }
 
