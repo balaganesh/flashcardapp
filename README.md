@@ -50,7 +50,7 @@ Or using yarn:
 ```bash
 yarn dev
 ```
-This will typically open the application in your default web browser at `http://localhost:5173` (Vite's default port).
+This will typically open the application in your default web browser at `https://localhost:5173` (Vite's default port).
 
 ### Setting up the Gemini API Key (Important for AI Features)
 
@@ -126,7 +126,7 @@ In the project directory, you can run the following scripts:
 ### `npm run dev` (or `yarn dev`)
 
 Runs the app in development mode using Vite.
-Open [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal) to view it in the browser.
+Open [https://localhost:5173](https://localhost:5173) (or the port shown in your terminal) to view it in the browser.
 The page will reload if you make edits, and you will see any lint errors in the console.
 
 ### `npm run build` (or `yarn build`)
